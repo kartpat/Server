@@ -1,6 +1,7 @@
 /*
 This is a node.js script for receiving Colortizer data from CityScope Colortizer sketch.
 It saves the data on PORT 33333 and sends a UDP packet to any client pinging PORT 6666.
+Note: Needs work on setting the data back to zero after some time of inactivity. 10 seconds.
 */
 var host = "127.0.0.1", port1 = 33333;
 var host1 = "127.0.0.1", port2 = 6666;
